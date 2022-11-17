@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domasna</title>
+</head>
+<body>
+    <script>
+
+//         Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+// Store your current age into a variable.
+// Store a maximum age into a variable.
+// Store an estimated amount per day (as a number).
+// Calculate how many you would eat total for the rest of your life.
+// Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var my_age = 29;
+var max_age = 90;
+var per_day = 3;
+var year_day = 365;
+var result = (max_age - my_age + year_day )*3;
+
+console.log("You will need " + " " + result + " " + "to last you until the ripe old age of" + max_age );
+
+
+// Store a radius into a variable.
+// Calculate the circumference based on the radius, and output "The circumference is NN".
+// Calculate the area based on the radius, and output "The area is NN".
+
+var radius_circle = 5;
+var circumference = 2 * Math.PI * radius_circle;
+
+console.log("The circumference is " + circumference );
+
+var area_based = Math.PI * radius_circle * radius_circle;
+
+console.log("The area is " + area_based );
+
+
+// Store a celsius temperature into a variable.
+// Convert it to fahrenheit and output "NN°C is NN°F".
+// Now store a fahrenheit temperature into a variable.
+// Convert it to celsius and output "NN°F is NN°C."
+
+var celsius_stepeni = 30;
+var fahrenheit_stepeni = (celsius_stepeni / 5 * 9 ) + 32 ;
+console.log( celsius_stepeni + " °C " + " is " + fahrenheit_stepeni + "°F" );
+
+
+var celsius_stepeni = ( (fahrenheit_stepeni - 32 )*5 / 9 );
+var fahrenheit_stepeni = 86;
+console.log( fahrenheit_stepeni + " °F " + " is " + celsius_stepeni + "°C" );
+
+    </script>
+</body>
+</html>
